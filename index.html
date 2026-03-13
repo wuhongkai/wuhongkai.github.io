@@ -7,42 +7,57 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <h1>吴鸿锴</h1>
-            <ul>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">吴鸿锴</h1>
+            <ul class="nav-menu">
                 <li><a href="#about">关于</a></li>
-                <li><a href="#projects">项目</a></li>
+                <li><a href="#works">作品</a></li>
                 <li><a href="#contact">联系</a></li>
             </ul>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
-    <section id="hero">
+    <section class="hero">
         <div class="hero-content">
-            <h2>AI产品经理</h2>
-            <p>专注于AI产品设计与创新</p>
+            <h1 class="hero-title">AI产品经理</h1>
+            <p class="hero-subtitle">探索AI与创意的无限可能</p>
+            <a href="#works" class="cta-button">查看作品</a>
         </div>
     </section>
 
-    <section id="about">
-        <h2>关于我</h2>
-        <p>AI产品经理，致力于将AI技术转化为用户价值</p>
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">关于我</h2>
+            <p class="about-text">AI产品经理，专注于产品设计与用户体验创新</p>
+        </div>
     </section>
 
-    <section id="projects">
-        <h2>项目作品</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <h3>项目1</h3>
-                <p>项目描述</p>
+    <section id="works" class="works">
+        <div class="container">
+            <h2 class="section-title">精选作品</h2>
+            <div class="video-grid">
+                <div class="video-card">
+                    <iframe src="//player.bilibili.com/player.html?bvid=BV13ScXz9EZi&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+                    <h3>最便宜的苹果笔记本电脑，到底咋样？</h3>
+                </div>
+                <div class="video-card">
+                    <iframe src="//player.bilibili.com/player.html?bvid=BV1hAcUzzETk&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+                    <h3>24小时不间断？港口都在运些什么</h3>
+                </div>
+                <div class="video-card">
+                    <iframe src="//player.bilibili.com/player.html?bvid=BV1bw4m1v7pk&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+                    <h3>3000年前的"神兽"长什么样？</h3>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="contact">
-        <h2>联系方式</h2>
-        <p>GitHub: wuhongkai</p>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">联系方式</h2>
+            <p>GitHub: <a href="https://github.com/wuhongkai" target="_blank">@wuhongkai</a></p>
+        </div>
     </section>
 </body>
 </html>
