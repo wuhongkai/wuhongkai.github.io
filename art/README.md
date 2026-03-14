@@ -53,3 +53,20 @@
 1. 复制整个 `art` 文件夹
 2. 推送到 `你的用户名.github.io` 仓库
 3. 访问 `https://你的用户名.github.io/art`
+
+## 更新内容后推送
+
+修改 `config.json` 或添加图片后，执行：
+
+```bash
+cd E:\project\personal_Portfolio
+git add art/
+git commit -m "Update portfolio content"
+git push origin main
+```
+
+或简化为一行：
+
+```bash
+cd E:\project\personal_Portfolio && git add art/ && git commit -m "Update content" && git push origin main
+```
