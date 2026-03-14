@@ -12,23 +12,29 @@
     {
       "id": "short-video",
       "name": "短视频",
-      "thumbnail": "images/categories/short-video.jpg",
+      "thumbnail": "images/categories/video1.png",
       "works": [
         {
-          "cover": "images/works/work1.jpg",
+          "cover": "images/works/video1.png",
           "title": "最便宜的苹果笔记本",
           "description": "测评最新款MacBook Air性能表现",
           "bvid": "BV13ScXz9EZi"
+        },
+        {
+          "cover": "images/works/video1.png",
+          "title": "国产短剧如何征服世界？",
+          "description": "分析国产短剧的成功秘诀",
+          "bvid": "BV1ABcsztEcY"
         }
       ]
     },
     {
       "id": "event",
       "name": "活动拍摄",
-      "thumbnail": "images/categories/event.jpg",
+      "thumbnail": "images/categories/video1.png",
       "works": [
         {
-          "cover": "images/works/work2.jpg",
+          "cover": "images/works/video1.png",
           "title": "港口24小时",
           "description": "记录港口不间断运作的一天",
           "bvid": "BV1hAcUzzETk"
@@ -38,22 +44,22 @@
     {
       "id": "ad",
       "name": "信息流广告",
-      "thumbnail": "images/categories/ad.jpg",
+      "thumbnail": "images/categories/video1.png",
       "works": []
     },
     {
       "id": "interview",
       "name": "人物访谈",
-      "thumbnail": "images/categories/interview.jpg",
+      "thumbnail": "images/categories/video1.png",
       "works": []
     },
     {
       "id": "animation",
       "name": "动画",
-      "thumbnail": "images/categories/animation.jpg",
+      "thumbnail": "images/categories/video1.png",
       "works": [
         {
-          "cover": "images/works/work3.jpg",
+          "cover": "images/works/video1.png",
           "title": "3000年前的神兽",
           "description": "探索古代神话中的神秘生物",
           "bvid": "BV1bw4m1v7pk"
@@ -63,7 +69,7 @@
     {
       "id": "branding",
       "name": "品宣",
-      "thumbnail": "images/categories/branding.jpg",
+      "thumbnail": "images/categories/video1.png",
       "works": []
     }
   ]

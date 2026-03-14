@@ -173,10 +173,18 @@ iframe {
 }
 
 @media (max-width: 768px) {
+    .hero-title {
+        font-size: 3rem;
+    }
     .categories {
         grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
     }
     .works-grid {
         grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    .page-title {
+        font-size: 2rem;
     }
 }
