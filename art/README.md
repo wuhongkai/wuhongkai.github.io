@@ -38,9 +38,15 @@
 
 ## 图片准备
 
-1. 背景图：放在 `images/bg.jpg`
-2. 模块封面：放在 `images/categories/`
-3. 作品封面：放在 `images/works/`
+### 推荐尺寸
+1. **背景图**：`images/bg.jpg` - 推荐 1920x1080px
+2. **模块封面**：`images/categories/` - 推荐 800x400px
+3. **作品封面**：`images/works/` - 推荐 600x400px
+
+### 自动适配
+- 所有图片会自动裁剪适配显示区域
+- 使用 `object-fit: cover` 保持比例
+- 支持 jpg、png、webp 格式
 
 ## 部署到GitHub Pages
 
