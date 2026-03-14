@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>艺术作品集</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile-card">
+            <h1 class="name">张三</h1>
+            <p class="contact">联系电话：138-0000-0000</p>
+            <button class="overview-btn" onclick="scrollToWorks()">作品概览</button>
+        </div>
+
+        <div class="works-grid" id="works">
+            <div class="work-item" onclick="openVideo('BV13ScXz9EZi')">
+                <div class="work-icon">📱</div>
+                <h3>短视频</h3>
+            </div>
+            <div class="work-item" onclick="openVideo('BV1hAcUzzETk')">
+                <div class="work-icon">📸</div>
+                <h3>活动拍摄</h3>
+            </div>
+            <div class="work-item" onclick="openVideo('BV1bw4m1v7pk')">
+                <div class="work-icon">📢</div>
+                <h3>信息流广告</h3>
+            </div>
+            <div class="work-item" onclick="openVideo('BV13ScXz9EZi')">
+                <div class="work-icon">🎤</div>
+                <h3>人物访谈</h3>
+            </div>
+            <div class="work-item" onclick="openVideo('BV1hAcUzzETk')">
+                <div class="work-icon">🎬</div>
+                <h3>动画</h3>
+            </div>
+            <div class="work-item" onclick="openVideo('BV1bw4m1v7pk')">
+                <div class="work-icon">🎨</div>
+                <h3>品宣</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="videoModal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <iframe id="videoFrame" src="" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
