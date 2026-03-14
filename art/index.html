@@ -3,43 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>艺术作品集</title>
+    <title>作品集</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="profile-card">
-            <h1 class="name">张三</h1>
-            <p class="contact">联系电话：138-0000-0000</p>
-            <button class="overview-btn" onclick="scrollToWorks()">作品概览</button>
+    <div class="homepage" id="homepage">
+        <div class="hero">
+            <h1 class="hero-title" id="heroTitle"></h1>
+            <p class="hero-subtitle" id="heroSubtitle"></p>
+            <p class="hero-contact" id="heroContact"></p>
         </div>
+        <div class="categories" id="categories"></div>
+    </div>
 
-        <div class="works-grid" id="works">
-            <div class="work-item" onclick="openVideo('BV13ScXz9EZi')">
-                <div class="work-icon">📱</div>
-                <h3>短视频</h3>
-            </div>
-            <div class="work-item" onclick="openVideo('BV1hAcUzzETk')">
-                <div class="work-icon">📸</div>
-                <h3>活动拍摄</h3>
-            </div>
-            <div class="work-item" onclick="openVideo('BV1bw4m1v7pk')">
-                <div class="work-icon">📢</div>
-                <h3>信息流广告</h3>
-            </div>
-            <div class="work-item" onclick="openVideo('BV13ScXz9EZi')">
-                <div class="work-icon">🎤</div>
-                <h3>人物访谈</h3>
-            </div>
-            <div class="work-item" onclick="openVideo('BV1hAcUzzETk')">
-                <div class="work-icon">🎬</div>
-                <h3>动画</h3>
-            </div>
-            <div class="work-item" onclick="openVideo('BV1bw4m1v7pk')">
-                <div class="work-icon">🎨</div>
-                <h3>品宣</h3>
-            </div>
-        </div>
+    <div class="category-page" id="categoryPage" style="display:none;">
+        <button class="back-btn" onclick="goBack()">< back</button>
+        <h2 class="page-title" id="pageTitle"></h2>
+        <div class="works-grid" id="worksGrid"></div>
     </div>
 
     <div class="modal" id="videoModal">

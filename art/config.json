@@ -1,0 +1,70 @@
+{
+  "homepage": {
+    "backgroundImage": "images/bg.jpg",
+    "title": "张三",
+    "subtitle": "视频创作者 | 摄影师",
+    "contact": {
+      "phone": "138-0000-0000",
+      "email": "example@email.com"
+    }
+  },
+  "categories": [
+    {
+      "id": "short-video",
+      "name": "短视频",
+      "thumbnail": "images/categories/short-video.jpg",
+      "works": [
+        {
+          "cover": "images/works/work1.jpg",
+          "title": "最便宜的苹果笔记本",
+          "description": "测评最新款MacBook Air性能表现",
+          "bvid": "BV13ScXz9EZi"
+        }
+      ]
+    },
+    {
+      "id": "event",
+      "name": "活动拍摄",
+      "thumbnail": "images/categories/event.jpg",
+      "works": [
+        {
+          "cover": "images/works/work2.jpg",
+          "title": "港口24小时",
+          "description": "记录港口不间断运作的一天",
+          "bvid": "BV1hAcUzzETk"
+        }
+      ]
+    },
+    {
+      "id": "ad",
+      "name": "信息流广告",
+      "thumbnail": "images/categories/ad.jpg",
+      "works": []
+    },
+    {
+      "id": "interview",
+      "name": "人物访谈",
+      "thumbnail": "images/categories/interview.jpg",
+      "works": []
+    },
+    {
+      "id": "animation",
+      "name": "动画",
+      "thumbnail": "images/categories/animation.jpg",
+      "works": [
+        {
+          "cover": "images/works/work3.jpg",
+          "title": "3000年前的神兽",
+          "description": "探索古代神话中的神秘生物",
+          "bvid": "BV1bw4m1v7pk"
+        }
+      ]
+    },
+    {
+      "id": "branding",
+      "name": "品宣",
+      "thumbnail": "images/categories/branding.jpg",
+      "works": []
+    }
+  ]
+}
