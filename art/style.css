@@ -42,6 +42,22 @@ body {
     opacity: 0.8;
 }
 
+.showreel-btn {
+    margin-top: 2rem;
+    padding: 0.8rem 2rem;
+    background: white;
+    color: #333;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.showreel-btn:hover {
+    transform: scale(1.05);
+}
+
 .categories {
     max-width: 1200px;
     margin: 4rem auto;

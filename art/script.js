@@ -12,6 +12,11 @@ function initHomepage() {
     document.getElementById('heroSubtitle').textContent = config.homepage.subtitle;
     document.getElementById('heroContact').textContent = `${config.homepage.contact.phone} | ${config.homepage.contact.email}`;
 
+    const showreelBtn = document.getElementById('showreelBtn');
+    if (config.homepage.showreelBvid) {
+        showreelBtn.onclick = () => openVideo(config.homepage.showreelBvid);
+    }
+
     const categoriesDiv = document.getElementById('categories');
     config.categories.forEach(cat => {
         const card = document.createElement('div');
